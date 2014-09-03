@@ -12,7 +12,6 @@
     "grunt-contrib-jshint": "x.x.x",
     "grunt-contrib-uglify": "x.x.x",
     "grunt-contrib-watch": "x.x.x",
-    "grunt-contrib-connect": "x.x.x",
     "grunt-notify": "x.x.x",
     "grunt-targethtml": "x.x.x",
     "load-grunt-config": "x.x.x"

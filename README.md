@@ -15,7 +15,6 @@ basejump is a stable starting point for building web apps » _[**work in progres
   - **Sass** (preprocess)
   - **TargetHTML** (templating)
   - **Notify** (notifications)
-  - **Connect** (localhost)
 - **Atom** (editor)
 
 ## How to use
