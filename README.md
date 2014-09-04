@@ -1,14 +1,10 @@
 # basejump
-basejump is a stable starting point for building web apps » _[**work in progress**]_
+basejump is a stable starting point for building web apps
 
 ## Components
 - **HTML5 Boilerplate** (boilerplate)
+- **Semantic UI** (bootstrap) » _[**not yet**]_
 - **Susy Grid** (layout)
-- **Semantic UI** (bootstrap) » _[**coming soon**]_
-- **AngularJS** (frontend) » _[**coming soon**]_
-- **Express** (backend) » _[**coming soon**]_
-- **MongoDB** (database) » _[**coming soon**]_
-- **Karma + PhantomJS** (testing) » _[**coming soon**]_
 - **GruntJS** (build)
   - **JSHint** (linting)
   - **Uglify** (minify)
@@ -19,8 +15,7 @@ basejump is a stable starting point for building web apps » _[**work in progres
 
 ## How to use
 ### Install Tools
-Npm, Node, Homebrew, Angular, Express, Mongo, Karma, Phantom, Grunt, Ruby,
-Sass, Compass, Susy + Atom
+Npm, Node, Homebrew, Grunt, Ruby, Sass, Compass, Susy + Atom
 
 ### Setup Build
     $ sudo npm install -g grunt-cli
@@ -30,6 +25,12 @@ Sass, Compass, Susy + Atom
 
 ### Development
     $ grunt dev
+
+### CSS
+    $ grunt css
+
+### JS
+    $ grunt js
 
 ### Release
     $ grunt dist
