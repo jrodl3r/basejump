@@ -4,7 +4,7 @@ basejump is a stable starting point for building web apps :rocket:
 ## Components
 - **HTML5 Boilerplate** (boilerplate)
 - **Semantic UI** (bootstrap) » _[**not yet**]_
-- **Susy Grid** (layout)
+- **Susy** (layout)
 - **GruntJS** (build)
   - **JSHint** (lint)
   - **Uglify** (minify)
