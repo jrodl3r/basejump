@@ -1,5 +1,5 @@
 # basejump
-basejump is a stable starting point for building web apps
+basejump is a stable starting point for building web apps :rocket:
 
 ## Components
 - **HTML5 Boilerplate** (boilerplate)
@@ -8,7 +8,7 @@ basejump is a stable starting point for building web apps
 - **GruntJS** (build)
   - **JSHint** (linting)
   - **Uglify** (minify)
-  - **Sass** (preprocess)
+  - **Sass/Compass** (preprocess)
   - **TargetHTML** (templating)
   - **Notify** (notifications)
 - **Atom** (editor)
@@ -18,10 +18,11 @@ basejump is a stable starting point for building web apps
 Npm, Node, Homebrew, Grunt, Ruby, Sass, Compass, Susy + Atom
 
 ### Setup Build
-    $ sudo npm install -g grunt-cli
-    $ npm update --save-dev
-    $ vim package.json
-    $ grunt
+    $ sudo npm install -g grunt-cli // install grunt
+    $ npm update --save-dev // install node modules
+    $ sudo gem install sass // also: compass, susy
+    $ vim package.json // update details
+    $ grunt // start build
 
 ### Development
     $ grunt dev
@@ -31,6 +32,9 @@ Npm, Node, Homebrew, Grunt, Ruby, Sass, Compass, Susy + Atom
 
 ### JS
     $ grunt js
+
+### Watch
+    $ grunt watch
 
 ### Release
     $ grunt dist
