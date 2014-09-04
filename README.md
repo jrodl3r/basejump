@@ -6,12 +6,12 @@ basejump is a stable starting point for building web apps :rocket:
 - **Semantic UI** (bootstrap) » _[**not yet**]_
 - **Susy Grid** (layout)
 - **GruntJS** (build)
-  - **JSHint** (linting)
+  - **JSHint** (lint)
   - **Uglify** (minify)
-  - **Sass/Compass** (preprocess)
-  - **TargetHTML** (templating)
-  - **Notify** (notifications)
-- **Atom** (editor)
+  - **Sass + Compass** (preprocess)
+  - **TargetHTML** (template)
+  - **Notify** (update)
+- **Atom** (edit)
 
 ## How to use
 ### Install Tools
