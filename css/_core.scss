@@ -22,27 +22,9 @@ $mq-color-tablet       :   #A0F;
 $mq-color-desktop      :   #F0E;
 
 
-// Grids
-
-/* $susy: (
-  columns: 12,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: outside,
-  debug: (
-    image: show,
-    color: rgba(#EEE,0.2),
-    output: background,
-    toggle: bottom right
-  )
-); */
-
-
 // Styles
 
 body {
-  @include container;
   font-family: $page-font;
   color: $text-color;
 }
