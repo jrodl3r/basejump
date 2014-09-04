@@ -18,11 +18,11 @@ basejump is a stable starting point for building web apps :rocket:
 Npm, Node, Homebrew, Grunt, Ruby, Sass, Compass, Susy + Atom
 
 ### Setup Build
-    $ sudo npm install -g grunt-cli // install grunt
-    $ npm update --save-dev // install node modules
+    $ sudo npm install -g grunt-cli
+    $ npm update --save-dev
     $ sudo gem install sass // also: compass, susy
-    $ vim package.json // update details
-    $ grunt // start build
+    $ vim package.json
+    $ grunt
 
 ### Development
     $ grunt dev
