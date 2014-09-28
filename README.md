@@ -1,9 +1,8 @@
-# basejump
+# basejump [v1.0.1]
 basejump is a stable starting point for building web apps :rocket:
 
 ## Components
 - **HTML5 Boilerplate** (boilerplate)
-- **Semantic UI** (bootstrap) » _[**not yet**]_
 - **Susy** (layout)
 - **GruntJS** (build)
   - **JSHint** (lint)
@@ -22,6 +21,7 @@ Npm, Node, Homebrew, Grunt, Ruby, Sass, Compass, Susy + Atom
     $ npm update --save-dev
     $ sudo gem install sass // also: compass, susy
     $ vim package.json
+    $ atom .
     $ grunt
 
 ### Development
