@@ -1,11 +1,13 @@
 default:
   - 'sass:dev'
   - 'targethtml:dev'
+  - 'includereplace:dev'
   - 'notify:dev'
 
 dev:
   - 'sass:dev'
   - 'targethtml:dev'
+  - 'includereplace:dev'
   - 'notify:dev'
   - 'watch'
 
