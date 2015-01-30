@@ -8,9 +8,10 @@ ehthumbs.db
 Thumbs.db
 
 #ENV
-/*.html
-/node_modules
 .sass-cache
-/css/base.css*
-/css/dist.css*
-/js/dist.min.js
+.grunt
+/node_modules
+/js/dist*.js
+/css/*.css*
+_SpecRunner.html
+index.html
