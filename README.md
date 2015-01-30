@@ -1,4 +1,4 @@
-# basejump v1.0.2  [![devDependencies](https://david-dm.org/jrodl3r/basejump/dev-status.svg)](https://david-dm.org/jrodl3r/basejump#info=devDependencies) [![Release](https://img.shields.io/github/release/jrodl3r/basejump.svg?style=flat)](https://github.com/jrodl3r/basejump/releases) [![License](https://img.shields.io/npm/l/express.svg?style=flat)](https://github.com/jrodl3r/basejump/blob/master/LICENSE)
+# basejump  [![devDependencies](https://david-dm.org/jrodl3r/basejump/dev-status.svg)](https://david-dm.org/jrodl3r/basejump#info=devDependencies) [![Release](https://img.shields.io/github/release/jrodl3r/basejump.svg?style=flat)](https://github.com/jrodl3r/basejump/releases) [![License](https://img.shields.io/npm/l/express.svg?style=flat)](https://github.com/jrodl3r/basejump/blob/master/LICENSE)
 
 basejump is a stable starting point for building awesome web apps :rocket:
 
