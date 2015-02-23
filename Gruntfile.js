@@ -35,28 +35,24 @@ module.exports = function(grunt) {
 
     jshint: {
       options: {
-        '-W058': true,
         curly: true,
         eqeqeq: true,
         immed: true,
-        latedef: false,
+        loopfunc: true,
+        latedef: true,
         newcap: true,
         noarg: true,
         sub: true,
         undef: true,
-        unused: false,
-        boss: true,
-        eqnull: false,
+        unused: true,
         browser: true,
-        esnext: true,
         debug: true,
-        globalstrict: true,
+        devel: true,
         globals: {
           '$': false,
+          'jQuery': true,
           'module': true,
-          'require': false,
-          'console': false,
-          'window': true
+          'require': false
         },
         ignores: ['js/dist.js', 'js/dist.min.js']
       },
@@ -136,7 +132,6 @@ module.exports = function(grunt) {
         livereload: true
       }
     }
-
   });
 
 
@@ -162,5 +157,4 @@ module.exports = function(grunt) {
   // Show Timer
   // ----------------------------------------------------------
   require('time-grunt')(grunt);
-
 };

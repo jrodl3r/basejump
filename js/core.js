@@ -2,19 +2,23 @@
 // Application Core
 //
 // ==========================================================================
-'use strict';
 
-var APP = {
+var MYAPP = (function() {
+  'use strict';
 
-  init: function init() {
+  var APP = {
 
-    $('html').removeClass('no-js');
+    init: function init() {
+      $('html').removeClass('no-js');
 
-    // add setup code
+      // [TODO: Add Your Initialization Code]
 
-  }
-};
+    }
+  };
 
-$(document).ready( function () {
-  APP.init();
+  return APP;
+})();
+
+$(document).ready(function() {
+  MYAPP.init();
 });

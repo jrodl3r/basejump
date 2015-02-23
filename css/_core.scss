@@ -11,10 +11,15 @@ body {
 a {
   color: $default-color;
   text-decoration: none;
+  @include transition(all $bp-color-timer);
 
   &:hover {
-    border-bottom: 1px dashed $default-color;
-    opacity: 0.75;
+    color: $font-color;
+    opacity: 0.5;
+
+    span {
+      color: $font-color;
+    }
   }
 }
 
